@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Adekunes.com</div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="sendmail.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <footer>
+        <div class="Contact-buttons">
+            <ul>
+                <li>
+                    <a href="https://wa.me/+14388674912">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:adekunleabdulquayum7@gmail.com">
+                        <i class="far fa-envelope"></i> Gmail
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Adekunes">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/adekunes/">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

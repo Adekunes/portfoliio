@@ -1,0 +1,119 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Your Amazing Font', sans-serif;
+    background: hsla(0, 0%, 0%, 1);
+
+    background: linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+
+    background: -moz-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+
+    background: -webkit-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#B00904", GradientType=1 );
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #fff; /* White background */
+    border-radius: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    padding: 120px;
+    text-align: center;
+    animation: slide-up 0.5s ease-in-out;
+  }
+  
+  h2 {
+    color: #fff8f8; /* Dark text color */
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    background: #337ab7; /* Blue button background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #23527c; /* Slightly darker blue on hover */
+  }
+  
+  /* Animation for sliding up */
+  @keyframes slide-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .custom-shape-divider-bottom-1697671132 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697671132 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+}
+
+.custom-shape-divider-bottom-1697671132 .shape-fill {
+    fill: #fff2f2;
+}
+
+.custom-shape-divider-top-1697671586 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1697671586 svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 245px;
+}
+
+.custom-shape-divider-top-1697671586 .shape-fill {
+    fill: #DB2828;
+}

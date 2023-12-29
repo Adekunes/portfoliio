@@ -1,0 +1,132 @@
+/* contact.css */
+
+/* Global Styles */
+body {
+    font-family: 'Your Funky Cursive Font', cursive;
+    background: hsla(0, 0%, 0%, 1);
+
+    background: linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(2, 96%, 35%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#B00904", GradientType=1 );
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  h2 {
+    color: #FF4500; /* Dark Orange text color */
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background: #FF4500; /* Dark Orange button background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #FF8C00; /* Slightly lighter orange on hover */
+  }
+  
+  /* Add this CSS for styling the navbar */
+.navbar {
+    background: #3e3c3c;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Add this CSS to style the contact buttons */
+.Contact-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Contact-buttons ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Contact-buttons li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.Contact-buttons a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Contact-buttons a:hover {
+    text-decoration: underline;
+}
+
